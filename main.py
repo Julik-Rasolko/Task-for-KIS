@@ -20,7 +20,6 @@ class Solver:
                     counter = counter + 1
                     break
             if (counter == 0):
-                print('hi')
                 np.delete(array, row)
     
     def prepare(self):
@@ -139,4 +138,3 @@ if __name__ == "__main__":
     file_name = input()
     solver = Solver(file_name)
     solver.print()
-
