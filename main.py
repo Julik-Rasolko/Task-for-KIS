@@ -136,7 +136,7 @@ class Solver:
 
 
 if __name__ == "__main__":
-    file_name = 'my_image_2.png'
+    file_name = input()
     solver = Solver(file_name)
     solver.print()
 
